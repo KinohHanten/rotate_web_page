@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "rotate_web_page",
+    "version": "1.0.0",
+    "description": "Place a Rotate_Web_Page button in the upper right corner of the web page.",
+    "content_scripts": [{
+            "matches": ["<all_urls>"],
+            "js": ["rotate_web_page.js"]
+    }],
+    "icons": {
+        "16":"16.png",
+        "48":"48.png",
+        "128":"128.png"
+    },
+    "action": {
+        "default_icon": "16.png",
+        "default_title": "rotate_web_page"
+    }
+}
