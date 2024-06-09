@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Rotate Web Page",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Place a Rotate_Web_Page button in the upper right corner of the web page.",
     "content_scripts": [{
             "matches": ["<all_urls>"],
